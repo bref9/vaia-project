@@ -5183,7 +5183,7 @@ return (
         ))}
       </View>
 
-      {/* Jours du mois - CORRIGÉ avec vérification */}
+      {/* Jours du mois -  CORRIGÉ avec vérification */}
       <View style={styles.calendarDaysGrid}>
         {getCalendarForMonth().map((day, index) => {
           if (day.isEmpty) {
