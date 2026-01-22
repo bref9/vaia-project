@@ -5200,7 +5200,7 @@ return (
           const isSelected = modifiedDate && isSameDay(day.date, modifiedDate);
 
           return (
-
+// Dans le rendu du calendrier modal
 // Dans le rendu de chaque jour du calendrier
 <TouchableOpacity
   key={`day-${index}`}
